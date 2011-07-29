@@ -4,10 +4,12 @@ gem 'rails', '3.1.0.rc5'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
+gem 'haml'
+gem 'formtastic', '2.0.0.rc1'
 gem 'mongoid', '~> 2.0'
 gem 'bson_ext', '~> 1.3'
 gem 'therubyracer'
-#gem 'sqlite3'
+gem 'sqlite3'
 
 
 # Gems used only for assets and not required

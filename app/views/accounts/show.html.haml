@@ -1,0 +1,10 @@
+%h1 Show Account
+%p
+  Name:
+  = @account.name
+%p
+  Short Name:
+  = @account.short_name
+= link_to 'Edit', edit_account_path(@account)
+|
+= link_to 'List of accounts', accounts_path

@@ -1,0 +1,15 @@
+%h1 Accounts list
+- @accounts.each do |account|
+  %p
+    %strong Name:
+    = account.name
+    %strong Short Name:
+    = account.short_name
+    %strong Website:
+    = account.website
+    %strong Created At:
+    = account.created_at
+    %strong Updated At:
+    = account.updated_at
+    = link_to 'Edit', edit_account_path(account)
+= link_to 'New Account', new_account_path
