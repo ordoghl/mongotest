@@ -4,8 +4,10 @@ gem 'rails', '3.1.0.rc5'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
-
-gem 'sqlite3'
+gem 'mongoid', '~> 2.0'
+gem 'bson_ext', '~> 1.3'
+gem 'therubyracer'
+#gem 'sqlite3'
 
 
 # Gems used only for assets and not required
@@ -19,7 +21,7 @@ end
 gem 'jquery-rails'
 
 # Use unicorn as the web server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'
